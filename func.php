@@ -2,7 +2,7 @@
     require __DIR__.'/vendor/autoload.php';
 	include("db.php");
 
-    use League\CommonMark\CommonMarkConverter;
+    use League\CommonMark\CommonMarkConverter\PRtest;
 
     $converter = new CommonMarkConverter(['html_input' => 'escape', 'allow_unsafe_links' => false]);
 
